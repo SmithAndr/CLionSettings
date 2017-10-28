@@ -2,6 +2,7 @@
   <action id="ClangFormat.ClangFormat">
     <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
+  <action id="CopyElement" />
   <action id="DecrementWindowHeight" />
   <action id="IntroduceField" />
   <action id="MoveEditorToOppositeTabGroup">
@@ -9,4 +10,21 @@
   </action>
   <action id="MoveStatementUp" />
   <action id="ResizeToolWindowUp" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="shift f10" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
 </keymap>
